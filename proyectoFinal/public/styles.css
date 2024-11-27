@@ -8,19 +8,19 @@ body {
 h1 {
     color: #000000;
     text-align: center;
-    margin-top: 40px; /* Agregado para bajar el título de "Listar usuarios" */
+    margin-top: 40px; 
 }
 
 h2 {
     color: #000000;
     text-align: center;
     font-size: x-large;
-    margin-top: 40px; /* Agregado para bajar el título de "Agregar usuario" */
+    margin-top: 40px;
 }
 
 form {
     width: 300px;
-    margin: 40px auto; /* Cambiado para bajar el formulario de "Agregar usuario" */
+    margin: 40px auto;
     padding: 20px;
     background: #ffffff;
     border-radius: 8px;
@@ -58,8 +58,8 @@ button:hover {
 }
 
 table {
-    width: 60%; /* Cambiado de 80% a 60% */
-    margin: 40px auto; /* Agregado margin-top para mover la tabla más abajo */
+    width: 60%;
+    margin: 40px auto;
     border-collapse: collapse;
     background: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
