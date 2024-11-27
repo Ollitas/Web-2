@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff3e0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    margin-top: 40px; /* Agregado para bajar el título de "Listar usuarios" */
+}
+
+h2 {
+    color: #000000;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 40px; /* Agregado para bajar el título de "Agregar usuario" */
+}
+
+form {
+    width: 300px;
+    margin: 40px auto; /* Cambiado para bajar el formulario de "Agregar usuario" */
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #570000;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 94%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1.5px solid #ffccbc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ff5722;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e64a19;
+}
+
+table {
+    width: 60%; /* Cambiado de 80% a 60% */
+    margin: 40px auto; /* Agregado margin-top para mover la tabla más abajo */
+    border-collapse: collapse;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ffccbc;
+    text-align: center;
+}
+
+ th { /*info tabla superior */
+    background: #ff5722;
+    color: rgb(0, 0, 0);
+}
+
+tr:nth-child(even) {
+    background: #ffe0b2;
+}
+
+a {
+    display: block;
+    text-align: center;
+    color: #ff5722;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
